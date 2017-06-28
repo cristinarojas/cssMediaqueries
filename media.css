@@ -1,0 +1,27 @@
+/* 500 to Down */ 
+@media(max-width: 500px) {
+	body {
+		background-color: blue;
+	}
+}
+
+/* 900px to Up */
+@media (min-width: 900px) {
+	body {
+		background-color: green;
+	}
+}
+
+/* Between 800 and 600*/
+@media (max-width: 800px) and (min-width: 600px) {
+	body {
+		background-color: yellow;
+	}
+}
+
+/* Landscape orientation */
+@media only screen and (orientation: landscape) {
+    p {
+        color: red;
+    }
+}
